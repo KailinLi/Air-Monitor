@@ -45,8 +45,6 @@ def loop():
     print getAqi
     if getAqi > 150:
         sendMessage(getAqi, getQuality, getCity, action(getAqi))
-    threading.Timer(3600 * 6, loop).start()
-    # 每隔6小时循环，因为python运行占用CPU很少，这里采用了比较dirty的方法
   
-  
-threading.Timer(1, loop).start() 
+while True:
+    threading.Timer(3600 * 60, loop).start()
