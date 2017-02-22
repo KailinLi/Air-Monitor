@@ -27,6 +27,8 @@ pip install alidayu
 man crontab
 ```
 
+此处有小坑：请注意VPS上的系统时区，自行换算或者修改区时。
+
 ## 编写细节
 
 * 用两个小时，从python零基础现学的，肯定有不少naive的用法，还请指正。
