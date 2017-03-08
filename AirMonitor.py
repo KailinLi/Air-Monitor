@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 
-import time
-import threading
 import requests
 import json
 from alidayu import api, appinfo
